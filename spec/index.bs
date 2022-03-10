@@ -4762,7 +4762,7 @@ A {{GPUPipelineBase}} object that was created with a {{GPUPipelineDescriptorBase
 {{GPUAutoLayoutMode/"auto"}} has a default layout created and used instead.
 
 Note: Default layouts are provided as a convenience for simple pipelines, but use of explicit layouts
-is recommended in most cases. Bind groups created from default layouts cannot be used with other
+is recommended in many cases. Bind groups created from default layouts cannot be used with other
 pipelines, and the structure of the default layout may change when altering shaders, causing
 unexpected bind group creation errors.
 
